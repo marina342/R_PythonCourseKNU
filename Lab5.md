@@ -1,0 +1,7 @@
+> res <- pmean("specdata", "sulfate", 1:10)
+> print(res)
+> res <- complete("specdata", c(2, 4, 8, 10, 12))
+> print(res)
+> cr <- corr("specdata", 150)
+> print(head(cr))
+> print(summary(cr))
