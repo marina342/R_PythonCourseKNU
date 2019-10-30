@@ -68,35 +68,3 @@ $observationB
 10.Для вбудованого набору даних InsectSprays знайти середнє count для кожного spray.
 > n <- 10; nn <- 10; g <- factor(round(n * runif(n * nn)))  
 > lapply(split(InsectSprays, g), count)  
-$`0`  
-[1] NA  
-
-$`1`  
-[1] NA  
-
-$`2`  
-[1] NA  
-
-$`3`  
-[1] NA  
-
-$`4`  
-[1] NA  
-
-$`5`  
-[1] NA  
-
-$`6`  
-[1] NA  
-
-$`7`  
-[1] NA  
-
-$`8`  
-[1] NA  
-
-$`9`  
-[1] NA  
-
-$`10`  
-[1] NA  
